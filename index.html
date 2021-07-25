@@ -4,25 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Translator</title>
     <style>
         textarea{
             width: 600px;
             display: block;
-            height: 300px;
+            height: 100px;;
             margin-top: 30px;
+            margin-left: 360px;
+            margin-bottom: 30px;
         }
         #txt-click{
             border: 1px solid;
-            height:200px
+            width: 600px;
+            display: block;
+            height: 100px;;
+            margin-top: 30px;
+            margin-left: 360px;
 
         }
+        nav{
+            text-align:center;
+            background-color:  #ffd55e;;
+            margin: -20px -7px 0 -7px;
+            padding: 20px;
+            color: #207ebd;
+            }
+        p{
+            text-align:center;
+            color: #323335;
+            font-size: 16px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        #btn-click{
+            display :block;
+            margin: auto;
+            background-color:#04e6f7
+        }
+        
     </style>
 </head>
 <body>
-    <textarea id="txt-area" placeholder="Your output come here once you click submit"></textarea>
-    <button type="button" id="btn-click">Submit</button>
-    
+    <nav>
+        <h1>Minion Translator</h1>
+        <h3 style ="font-weight: lighter;">Are you curious about how minions speak?, then you should try this.</h3>
+    </nav>
+    <p>Please enter your text in english 👇</p>
+    <textarea id="txt-area" ></textarea>
+    <button type="button" id="btn-click">Translate</button>
+    <p>Translated output comes here 👇</p>
     <div id="txt-click" ></div>
     <script type="text/javascript" src="app.js"></script>
 </body>
