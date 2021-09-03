@@ -1,7 +1,7 @@
 var btnClick = document.querySelector("#btn-click");
 var txtClick = document.querySelector("#txt-area");
 var txtOutput = document.querySelector("#txt-click");
-var url = "https://api.funtranslations.com/translate/yoda.json";
+var url = "	https://api.funtranslations.com/translate/minion.json";
 //requesting API server with input text 
     function inputHandler(inputTxt){
         return url + "?" +"text=" + inputTxt;
