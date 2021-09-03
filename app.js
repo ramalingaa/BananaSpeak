@@ -12,7 +12,7 @@ var url = "https://api.funtranslations.com/translate/yoda.json";
         alert("Server can only handle 5 requests per hour, please try after One hour")
     }
     function clickHandler(){
-            var textInput = txtClick.value;// inputvalue
+              var textInput = txtClick.value;// inputvalue
             // fetcing the server
         fetch(inputHandler(textInput))
         .then(response => response.json())
